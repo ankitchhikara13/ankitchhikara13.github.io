@@ -1,0 +1,13 @@
+---
+title: "My first weeks in MDS"
+author: "Your Name"
+date: 2026-09-10
+---
+
+Your first paragraph here — orientation, first impressions.
+
+Your second paragraph — the first week of classes, what surprised you.
+
+Your third paragraph — how you're feeling now, a few weeks in.
+
+![Orientation day on campus.](Orientation.jpeg)

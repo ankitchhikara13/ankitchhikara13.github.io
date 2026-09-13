@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "My first weeks in MDS\n\n\n\n\n\n\n\n\nSep 10, 2026\n\n\nYour Name\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ankit Chhikara",
+    "section": "",
+    "text": "Hi, I’m Ankit Chhikara. I’m currently a student in the UBC Master of Data Science program. Before MDS, I [worked as / studied] … I’m interested in … and hoping to work in … after graduating."
+  },
+  {
+    "objectID": "posts/first-weeks/index.html",
+    "href": "posts/first-weeks/index.html",
+    "title": "My first weeks in MDS",
+    "section": "",
+    "text": "Your first paragraph here — orientation, first impressions.\nYour second paragraph — the first week of classes, what surprised you.\nYour third paragraph — how you’re feeling now, a few weeks in.\n\n\n\nOrientation day on campus."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Where you grew up or studied, and what you worked on before MDS."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About Me",
+    "section": "",
+    "text": "Where you grew up or studied, and what you worked on before MDS."
+  },
+  {
+    "objectID": "about.html#why-data-science",
+    "href": "about.html#why-data-science",
+    "title": "About Me",
+    "section": "Why Data Science",
+    "text": "Why Data Science\nWhat brought you to the program — a project, a job, a curiosity, whatever the honest story is."
+  },
+  {
+    "objectID": "about.html#outside-of-data-science",
+    "href": "about.html#outside-of-data-science",
+    "title": "About Me",
+    "section": "Outside of Data Science",
+    "text": "Outside of Data Science\nHobbies, sports, music, food — what you do on a weekend."
+  }
+]

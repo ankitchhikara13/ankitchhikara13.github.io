@@ -1,0 +1,7 @@
+---
+title: "Ankit Chhikara"
+---
+
+![](images/profile.jpg){width=250px}
+
+Hi, I'm Ankit Chhikara. I'm currently a student in the UBC Master of Data Science program. Before MDS, I [worked as / studied] ... I'm interested in ... and hoping to work in ... after graduating.
