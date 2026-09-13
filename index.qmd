@@ -15,7 +15,7 @@ page-layout: full
 </div>
 </div>
 <div class="hero-portrait">
-<div class="portrait-frame"><img src="images/profile.JPG" alt="Portrait of Ankit Chhikara"></div>
+<div class="portrait-frame"><img src="images/profile.jpg" alt="Portrait of Ankit Chhikara"></div>
 <p class="portrait-note">Currently exploring<br><strong>data, ideas, and the city.</strong></p>
 </div>
 </div>
