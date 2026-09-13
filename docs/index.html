@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="The personal site of Ankit Chhikara, a UBC Master of Data Science student.">
 
-<title>Ankit Chhikara – portfolio website</title>
+<title>Building with data, learning in public. – Ankit Chhikara</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -86,7 +87,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">portfolio website</span>
+    <span class="navbar-title">Ankit Chhikara</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -108,6 +109,12 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./#"> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
@@ -115,23 +122,28 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ankit Chhikara</h1>
+<h1 class="title">Building with data, learning in public.</h1>
+</div>
+
+<div>
+  <div class="description">
+    The personal site of Ankit Chhikara, a UBC Master of Data Science student.
+  </div>
 </div>
 
 
-
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -143,12 +155,91 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="images/profile.jpg" class="img-fluid" width="250"></p>
-<p>Hi, I’m Ankit Chhikara. I’m currently a student in the UBC Master of Data Science program. Before MDS, I [worked as / studied] … I’m interested in … and hoping to work in … after graduating.</p>
+<div class="home-hero">
+<div class="hero-copy">
+<p class="eyebrow">
+Ankit Chhikara <span class="status-dot"></span> UBC Master of Data Science
+</p>
+<h1>
+Building with data,<br><em>learning in public.</em>
+</h1>
+<p class="hero-lede">
+I’m a data science student interested in the space between thoughtful questions and useful tools. This is where I share what I’m learning, making, and thinking about along the way.
+</p>
+<div class="hero-actions">
+<p><a class="button button-primary" href="./blog.html">Read the journal <span aria-hidden="true">↗</span></a> <a class="text-link" href="./about.html">More about me <span aria-hidden="true">→</span></a></p>
+</div>
+</div>
+<div class="hero-portrait">
+<div class="portrait-frame">
+<img src="images/profile.JPG" alt="Portrait of Ankit Chhikara">
+</div>
+<p class="portrait-note">
+Currently exploring<br><strong>data, ideas, and the city.</strong>
+</p>
+</div>
+</div>
+<div class="home-grid">
+<section class="feature-block">
+<p class="eyebrow">
+A little context
+</p>
+<h2 class="anchored">
+Curious by default.<br>Practical by design.
+</h2>
+<p>
+I care about the full journey from a messy question to a clear, useful answer. My MDS experience is helping me build the technical range and judgment to do that work well.
+</p>
+<a class="text-link" href="./about.html">Get to know me <span aria-hidden="true">→</span></a>
+</section>
+<section class="feature-block feature-block-accent">
+<p class="eyebrow">
+On the journal
+</p>
+<h2 class="anchored">
+Notes from the<br>first weeks of MDS.
+</h2>
+<p>
+A running record of orientation, new routines, surprises, and the small details that make a big transition feel real.
+</p>
+<a class="text-link" href="./posts/first-weeks/index.html">Read the latest post <span aria-hidden="true">→</span></a>
+</section>
+</div>
 
 
 
 </main> <!-- /main -->
+<script>
+(function () {
+  const savedTheme = localStorage.getItem('ankit-theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+  document.documentElement.dataset.theme = theme;
+
+  window.addEventListener('DOMContentLoaded', function () {
+    const tools = document.querySelector('.quarto-navbar-tools');
+    if (!tools || tools.querySelector('.theme-toggle')) return;
+
+    const button = document.createElement('button');
+    button.className = 'theme-toggle';
+    button.type = 'button';
+    button.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+    button.setAttribute('title', button.getAttribute('aria-label'));
+    button.innerHTML = theme === 'dark' ? '&#9728;' : '&#9790;';
+    tools.appendChild(button);
+
+    button.addEventListener('click', function () {
+      const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = nextTheme;
+      localStorage.setItem('ankit-theme', nextTheme);
+      const label = nextTheme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+      button.setAttribute('aria-label', label);
+      button.setAttribute('title', label);
+      button.innerHTML = nextTheme === 'dark' ? '&#9728;' : '&#9790;';
+    });
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

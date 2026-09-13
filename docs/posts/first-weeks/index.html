@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Your Name">
+<meta name="author" content="Ankit Chhikara">
 <meta name="dcterms.date" content="2026-09-10">
 
-<title>My first weeks in MDS – portfolio website</title>
+<title>My first weeks in MDS – Ankit Chhikara</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -88,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">portfolio website</span>
+    <span class="navbar-title">Ankit Chhikara</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -108,6 +108,12 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../#"> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -138,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Your Name </p>
+             <p>Ankit Chhikara </p>
           </div>
   </div>
     
@@ -157,9 +163,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Your first paragraph here — orientation, first impressions.</p>
-<p>Your second paragraph — the first week of classes, what surprised you.</p>
-<p>Your third paragraph — how you’re feeling now, a few weeks in.</p>
+<p>Starting the UBC Master of Data Science program has felt like stepping into motion. There is a new rhythm to learn: new people, new tools, and a lot of questions arriving faster than answers.</p>
+<p>The first weeks have been a mix of orientation, first classes, and the quieter work of finding a routine. What surprised me most is how quickly a broad field becomes personal once you start asking which problems you want to spend time with.</p>
+<p>I’m still at the beginning, but I’m trying to pay attention to the process as much as the output. This journal is a place to keep those observations close.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Orientation.jpeg" class="img-fluid figure-img"></p>
@@ -170,6 +176,37 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<script>
+(function () {
+  const savedTheme = localStorage.getItem('ankit-theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+  document.documentElement.dataset.theme = theme;
+
+  window.addEventListener('DOMContentLoaded', function () {
+    const tools = document.querySelector('.quarto-navbar-tools');
+    if (!tools || tools.querySelector('.theme-toggle')) return;
+
+    const button = document.createElement('button');
+    button.className = 'theme-toggle';
+    button.type = 'button';
+    button.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+    button.setAttribute('title', button.getAttribute('aria-label'));
+    button.innerHTML = theme === 'dark' ? '&#9728;' : '&#9790;';
+    tools.appendChild(button);
+
+    button.addEventListener('click', function () {
+      const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = nextTheme;
+      localStorage.setItem('ankit-theme', nextTheme);
+      const label = nextTheme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+      button.setAttribute('aria-label', label);
+      button.setAttribute('title', label);
+      button.innerHTML = nextTheme === 'dark' ? '&#9728;' : '&#9790;';
+    });
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

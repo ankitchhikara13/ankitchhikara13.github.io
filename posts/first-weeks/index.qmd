@@ -1,13 +1,13 @@
 ---
 title: "My first weeks in MDS"
-author: "Your Name"
+author: "Ankit Chhikara"
 date: 2026-09-10
 ---
 
-Your first paragraph here — orientation, first impressions.
+Starting the UBC Master of Data Science program has felt like stepping into motion. There is a new rhythm to learn: new people, new tools, and a lot of questions arriving faster than answers.
 
-Your second paragraph — the first week of classes, what surprised you.
+The first weeks have been a mix of orientation, first classes, and the quieter work of finding a routine. What surprised me most is how quickly a broad field becomes personal once you start asking which problems you want to spend time with.
 
-Your third paragraph — how you're feeling now, a few weeks in.
+I’m still at the beginning, but I’m trying to pay attention to the process as much as the output. This journal is a place to keep those observations close.
 
 ![Orientation day on campus.](Orientation.jpeg)

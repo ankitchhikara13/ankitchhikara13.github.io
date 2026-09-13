@@ -1,15 +1,19 @@
 ---
 title: "About Me"
+description: "A little more about Ankit Chhikara and his path into data science."
 ---
 
-## Background
+<p class="page-kicker">A work in progress, intentionally</p>
+<p class="page-intro">I’m Ankit, a student in the UBC Master of Data Science program. I’m using this space to make sense of the work, questions, and experiences that shape my path through data.</p>
 
-Where you grew up or studied, and what you worked on before MDS.
+## Right now
 
-## Why Data Science
+I’m focused on building a strong foundation across the data science toolkit while staying close to the human questions underneath the technical ones. The most interesting problems rarely arrive in tidy columns.
 
-What brought you to the program — a project, a job, a curiosity, whatever the honest story is.
+## What I’m looking for
 
-## Outside of Data Science
+Good questions, generous collaborators, and projects where analysis can become something genuinely useful. I’m especially drawn to work that rewards both curiosity and care.
 
-Hobbies, sports, music, food — what you do on a weekend.
+## Beyond the coursework
+
+This site is also a practice in reflection: making room for the parts of learning that do not fit neatly into a résumé. Expect notes, experiments, and honest observations as the year unfolds.

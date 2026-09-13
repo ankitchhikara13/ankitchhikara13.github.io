@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Notes, observations, and experiments from Ankit Chhikara.">
 
-<title>Blog – portfolio website</title>
+<title>Blog – Ankit Chhikara</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -146,7 +147,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">portfolio website</span>
+    <span class="navbar-title">Ankit Chhikara</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -166,6 +167,12 @@ window.Quarto = {
   <li class="nav-item">
     <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./#"> 
+<span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -189,6 +196,11 @@ window.Quarto = {
 <h1 class="title">Blog</h1>
 </div>
 
+<div>
+  <div class="description">
+    Notes, observations, and experiments from Ankit Chhikara.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -203,13 +215,19 @@ window.Quarto = {
 </header>
 
 
+<p class="page-kicker">
+Field notes
+</p>
+<p class="page-intro">
+Small records of the things I’m learning, making, and noticing.
+</p>
 
 
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1789023600000" data-listing-file-modified-sort="1789297743888" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="33">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1789023600000" data-listing-file-modified-sort="1789298120621" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
 <div class="thumbnail"><a href="./posts/first-weeks/index.html" class="no-external">
 
 <p class="card-img-top"><img loading='lazy' src="posts/first-weeks/Orientation.jpeg"  class="thumbnail-image card-img"/></p>
@@ -220,7 +238,7 @@ window.Quarto = {
 <a href="./posts/first-weeks/index.html" class="no-external">My first weeks in MDS</a>
 </h3>
 <div class="delink listing-description"><a href="./posts/first-weeks/index.html" class="no-external">
-Your first paragraph here — orientation, first impressions.
+Starting the UBC Master of Data Science program has felt like stepping into motion. There is a new rhythm to learn: new people, new tools, and a lot of questions arriving…
 </a></div>
 </div>
 <div class="metadata">
@@ -229,7 +247,7 @@ Your first paragraph here — orientation, first impressions.
 Sep 10, 2026
 </div>
 <div class="listing-author">
-Your Name
+Ankit Chhikara
 </div>
 </a>
 </div>
@@ -237,6 +255,37 @@ Your Name
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div></main> <!-- /main -->
+<script>
+(function () {
+  const savedTheme = localStorage.getItem('ankit-theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const theme = savedTheme || (prefersDark ? 'dark' : 'light');
+  document.documentElement.dataset.theme = theme;
+
+  window.addEventListener('DOMContentLoaded', function () {
+    const tools = document.querySelector('.quarto-navbar-tools');
+    if (!tools || tools.querySelector('.theme-toggle')) return;
+
+    const button = document.createElement('button');
+    button.className = 'theme-toggle';
+    button.type = 'button';
+    button.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+    button.setAttribute('title', button.getAttribute('aria-label'));
+    button.innerHTML = theme === 'dark' ? '&#9728;' : '&#9790;';
+    tools.appendChild(button);
+
+    button.addEventListener('click', function () {
+      const nextTheme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      document.documentElement.dataset.theme = nextTheme;
+      localStorage.setItem('ankit-theme', nextTheme);
+      const label = nextTheme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+      button.setAttribute('aria-label', label);
+      button.setAttribute('title', label);
+      button.innerHTML = nextTheme === 'dark' ? '&#9728;' : '&#9790;';
+    });
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

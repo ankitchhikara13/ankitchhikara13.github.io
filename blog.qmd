@@ -1,6 +1,10 @@
 ---
 title: "Blog"
+description: "Notes, observations, and experiments from Ankit Chhikara."
 listing:
   contents: posts
   sort: "date desc"
 ---
+
+<p class="page-kicker">Field notes</p>
+<p class="page-intro">Small records of the things I’m learning, making, and noticing.</p>
