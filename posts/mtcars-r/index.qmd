@@ -1,0 +1,53 @@
+---
+title: "A small look at fuel efficiency"
+author: "Ankit Chhikara"
+date: 2026-09-16
+engine: knitr
+---
+
+The `mtcars` dataset records fuel consumption and vehicle characteristics for 32 cars. I use it to ask a focused question: how does transmission relate to fuel efficiency, and what other variables might help explain the pattern?
+
+The data is included with base [R](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/mtcars.html), and is originally from the 1974 US Magazine Motor Trend. No external data file is needed to render this post.
+
+```{r}
+#| message: false
+#| warning: false
+
+data(mtcars)
+cars <- transform(
+    mtcars,
+    transmission = factor(am, levels = c(0, 1), labels = c("Automatic", "Manual"))
+)
+head(cars[, c("mpg", "cyl", "wt", "transmission")])
+```
+
+There are 13 automatic and 19 manual cars in this small sample. I compared their average miles per gallon.
+
+```{r}
+group_means <- aggregate(mpg ~ transmission, data = cars, FUN = mean)
+group_means$mpg <- round(group_means$mpg, 1)
+group_means
+```
+
+Manual cars average higher fuel economy in this dataset. That comparison is descriptive, not causal: the transmission groups also differ in weight and number of cylinders.
+
+```{r}
+#| label: fig-mtcars-mpg
+#| fig-cap: "Fuel economy by transmission type in the mtcars dataset."
+boxplot(
+    mpg ~ transmission,
+    data = cars,
+    col = c("#d7e3e8", "#e39b6b"),
+    xlab = "Transmission",
+    ylab = "Miles per gallon",
+    main = "Fuel economy differs by transmission"
+)
+```
+
+The plot shows that the manual group is shifted upward, although there is variation within both groups. A final check of weight helps explain why a simple transmission comparison should be interpreted carefully.
+
+```{r}
+cor(cars$mpg, cars$wt)
+```
+
+The correlation between fuel economy and vehicle weight is strongly negative in this sample: heavier cars tend to use more fuel. A clear group difference is a starting point for analysis, not the end of the story.

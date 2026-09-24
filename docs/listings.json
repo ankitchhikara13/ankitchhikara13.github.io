@@ -2,6 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/mtcars-r/index.html",
+      "/posts/iris-python/index.html",
+      "/posts/exploring-vancouver/index.html",
       "/posts/first-weeks/index.html"
     ]
   }

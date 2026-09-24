@@ -1,0 +1,62 @@
+---
+title: "What predicts iris species?"
+author: "Ankit Chhikara"
+date: 2026-09-15
+engine: jupyter
+---
+
+The Iris dataset contains measurements for 150 flowers from three species. I use it here as a small example of how exploratory summaries can reveal which measurements separate groups.
+
+The data comes bundled with [scikit-learn](https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html), and the original dataset is attributed to the UCI Machine Learning Repository. No data file is downloaded while this post renders.
+
+```{python}
+from sklearn.datasets import load_iris
+
+iris = load_iris(as_frame=True)
+flowers = iris.frame.rename(columns={
+    "sepal length (cm)": "sepal_length",
+    "sepal width (cm)": "sepal_width",
+    "petal length (cm)": "petal_length",
+    "petal width (cm)": "petal_width",
+})
+flowers["species"] = flowers["target"].map(dict(enumerate(iris.target_names)))
+flowers.head()
+```
+
+Each species has 50 observations. I compared the average petal length across the three groups.
+
+```{python}
+summary = (
+    flowers.groupby("species")
+    .agg(
+        observations=("species", "size"),
+        mean_petal_length=("petal_length", "mean"),
+    )
+    .round(2)
+)
+summary
+```
+
+The average petal lengths differ substantially: setosa has the smallest petals, while virginica has the largest. I also checked the observed range for each species.
+
+```{python}
+petal_ranges = flowers.groupby("species")["petal_length"].agg(["min", "max"]).round(2)
+petal_ranges
+```
+
+```{python}
+#| label: fig-iris-petal-length
+#| fig-cap: "Petal length by iris species."
+import matplotlib.pyplot as plt
+
+fig, ax = plt.subplots(figsize=(7, 4))
+flowers.boxplot(column="petal_length", by="species", ax=ax, grid=False)
+ax.set_title("")
+ax.set_xlabel("Species")
+ax.set_ylabel("Petal length (cm)")
+fig.suptitle("")
+plt.tight_layout()
+plt.show()
+```
+
+The figure makes the separation visible. Setosa is distinct, while versicolor and virginica have higher but more overlapping petal lengths. This is a useful example of why a distribution plot gives more information than one average alone.
