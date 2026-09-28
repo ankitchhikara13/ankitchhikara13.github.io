@@ -24,12 +24,6 @@ Rscript -e 'renv::restore(prompt = FALSE)'
 uv run quarto render
 ```
 
-The rendered website is written to `docs/`. Open `docs/index.html` directly, or serve it locally with:
-
-```sh
-python3 -m http.server --directory docs 8000
-```
-
 Then open <http://localhost:8000>. To preview the source files with automatic rebuilding, run:
 
 ```sh
