@@ -1,0 +1,13 @@
+---
+title: "Contact"
+description: "Contact Ankit Chhikara in Vancouver, BC."
+---
+
+<section class="contact-card">
+<p class="page-kicker">Ranger station · Vancouver, BC</p>
+<h2>Have a data problem<br><em>worth exploring?</em></h2>
+<p>I’m interested in data engineering, cloud data platforms, and ML operations. Reach out through LinkedIn for professional conversations.</p>
+<a class="button button-primary" href="https://www.linkedin.com/in/ankitchhikara13/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+</section>
+
+<p class="contact-back"><a href="index.qmd">Back to the trailhead <span aria-hidden="true">↑</span></a></p>

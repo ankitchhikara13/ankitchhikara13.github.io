@@ -6,16 +6,21 @@ website:
   title: "Ankit Chhikara"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
+      - href: index.qmd#about
         text: About
+      - href: index.qmd#services
+        text: Services
+      - href: index.qmd#projects
+        text: Projects
+      - href: index.qmd#experience
+        text: Experience
       - href: blog.qmd
         text: Blog
     right:
-      - text: ""
-        href: "#"
-        aria-label: "Toggle dark mode"
+      - href: resume.qmd
+        text: Résumé
+      - href: info.qmd
+        text: Contact
 
 format:
   html:

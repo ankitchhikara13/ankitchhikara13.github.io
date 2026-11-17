@@ -1,19 +1,137 @@
 ---
-title: "About Me"
-description: "A little more about Ankit Chhikara and his path into data science."
+title: "About"
+description: "About Ankit Chhikara: data engineering, software platforms, and graduate study in data science."
 ---
 
-<p class="page-kicker">A work in progress, intentionally</p>
-<p class="page-intro">I’m Ankit, a student in the UBC Master of Data Science program. I’m using this space to make sense of the work, questions, and experiences that shape my path through data.</p>
+<p class="page-kicker">The person behind the pipelines</p>
+<div class="about-overview">
+<div class="about-portrait"><img src="images/profile.jpg" alt="Portrait of Ankit Chhikara"></div>
+<p class="page-intro">I’m Ankit, a data engineer pursuing a Master of Data Science at UBC. Over six years at Telstra, I’ve worked across cloud data platforms, ML operations, streaming analytics, and production software.</p>
+</div>
 
-## Right now
+## How I approach data work
 
-I’m focused on building a strong foundation across the data science toolkit while staying close to the human questions underneath the technical ones. The most interesting problems rarely arrive in tidy columns.
+I like engineering the part between a promising idea and a system people can rely on. That means asking how data gets in, how its quality is checked, how a model or downstream team will use it, and how we will know when something needs attention.
 
-## What I’m looking for
+My experience has moved between Azure and AWS, large-scale Spark pipelines, and Java services. In each setting, I’ve focused on modular designs, practical automation, and making data workflows easier to operate.
 
-Good questions, generous collaborators, and projects where analysis can become something genuinely useful. I’m especially drawn to work that rewards both curiosity and care.
+## Experience {#experience}
 
-## Beyond the coursework
+::: {.profile-timeline}
+::: {.timeline-item}
+::: {.timeline-meta}
+**Apr 2023 – Present**<br>
+Telstra · Remote<br>
+Greater Melbourne Area
+:::
+::: {.timeline-content}
+### Software Engineer 2, Big Data
 
-This site is also a practice in reflection: making room for the parts of learning that do not fit neatly into a résumé. Expect notes, experiments, and honest observations as the year unfolds.
+I work across data platforms, ML operations, and streaming analytics.
+
+**Datacore (DNA)**
+
+Built and maintained Azure Data Factory pipelines for ingestion and transformation, storing data in ADLS as Parquet and replicating it to PostgreSQL. Optimized analytics workflows with Databricks and Control-M, and designed modular pipelines for new sources and requirements.
+
+**ML operations**
+
+Designed AWS data pipelines for model onboarding in fraud detection and account-takeover prevention. Defined onboarding rules, model metrics, and performance tracking, and created QuickSight dashboards for training data and model outputs.
+
+**ONE Analytics**
+
+Built Scala and Spark pipelines integrating Salesforce, SFTP, and Kafka data into Hive and PostgreSQL. Designed centralized pipeline observability through JFrog and integrated PagerDuty and Grafana for alerts and job tracking.
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-meta}
+**Dec 2021 – Apr 2023**<br>
+Telstra · Bengaluru, India
+:::
+::: {.timeline-content}
+### Software Engineer
+
+**Data platform migration**
+
+Worked with product managers to redesign data pipelines and migrate data flows from Informatica to Azure, contributing to **$1M in operational cost savings**. Built data scripts, CI/CD pipelines, and data-quality controls with Azure Data Factory, SQL Server, ADLS, Docker, Jenkins, Ansible, and Kubernetes.
+
+**Data warehouse and quality monitoring**
+
+Designed an AWS Redshift warehouse for structured and semi-structured data and automated processing with Apache Airflow. Developed data-quality monitoring with AWS Glue and CloudWatch to detect missing data, outliers, and schema changes.
+:::
+:::
+
+::: {.timeline-item}
+::: {.timeline-meta}
+**Dec 2020 – Dec 2021**<br>
+Telstra · Bengaluru, India
+:::
+::: {.timeline-content}
+### Software Engineering Associate
+
+**Order orchestration**
+
+Designed Java/J2EE services with Spring Cloud, OAuth 2.0, and JWT, and built REST APIs with Spring Boot. Containerized services with Docker and Kubernetes and optimized Jenkins CI/CD. AWS serverless workflows reduced deployment time by **40%**.
+
+**Testing and environment visibility**
+
+Used JUnit and Mockito to raise conditional code coverage from **45% to 60%** and improve efficiency by **18%**. Also built REST APIs and dashboards to show the status of **50 production and non-production environments**, helping teams see resource availability in real time.
+
+**Cloud-native order processing**
+
+Developed Spring Boot services and integrated Amazon API Gateway, EC2, S3, and RDS with MySQL for order processing and data storage.
+:::
+:::
+:::
+
+## Education {#education}
+
+::: {.education-grid}
+::: {.education-card}
+<p class="project-label">Vancouver, Canada · Aug 2026 – Aug 2027</p>
+### Master of Science, Data Science
+
+**The University of British Columbia**
+
+Graduate study in data science, building on industry experience in data platforms and software engineering.
+:::
+::: {.education-card}
+<p class="project-label">New Delhi, India · 2016 – 2020</p>
+### Bachelor of Engineering
+
+**Netaji Subhas Institute of Technology**
+
+Electrical, Electronics and Communications Engineering.
+:::
+:::
+
+## Toolkit {#toolkit}
+
+::: {.skills-grid}
+::: {.skill-card}
+### Languages &amp; processing
+
+Python · Scala · PySpark · SQL · Java · Spark
+:::
+::: {.skill-card}
+### Cloud &amp; data platforms
+
+Azure Data Factory · Databricks · ADLS · AWS · Redshift · AWS Glue
+:::
+::: {.skill-card}
+### Streaming &amp; databases
+
+Kafka · Hive · PostgreSQL · SQL Server · MySQL · Amazon RDS
+:::
+::: {.skill-card}
+### Delivery &amp; observability
+
+Docker · Kubernetes · Jenkins · Ansible · Airflow · Control-M · JFrog · Grafana · PagerDuty · CloudWatch · QuickSight
+:::
+:::
+
+## Outside the day job {#field-notes}
+
+I use this site to document what I’m learning, from the first weeks of the UBC MDS program to small, reproducible analyses in Python and R.
+
+[Read the field notes](blog.qmd) or [connect with me on LinkedIn](https://www.linkedin.com/in/ankitchhikara13/).

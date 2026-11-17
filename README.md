@@ -1,6 +1,6 @@
 # Ankit Chhikara's portfolio
 
-This repository contains my Quarto portfolio and four blog posts for DSCI 521: two personal posts about starting the MDS program and exploring Vancouver, plus separate computational posts using Python and R. The Python post analyzes the Iris dataset bundled with scikit-learn; the R post analyzes the built-in `mtcars` dataset. The computational posts render their code, output, and figures from the locked project environments.
+This repository contains my Quarto portfolio and four blog posts. The homepage opens on an original Vancouver Coast Mountains illustration with a pointer-responsive bird flock, then follows a trail through my background, work areas, selected projects, career timeline, toolkit, education, field notes, and contact details. Separate About, Blog, Résumé, and Contact pages provide more detail. The résumé page can be printed or saved as PDF from the browser. The posts include notes on starting the UBC Master of Data Science program and exploring Vancouver, along with reproducible Python and R analyses. The Python post analyzes the Iris dataset bundled with scikit-learn; the R post analyzes the built-in `mtcars` dataset. The computational posts render their code, output, and figures from the locked project environments.
 
 ## Prerequisites
 
@@ -24,13 +24,13 @@ Rscript -e 'renv::restore(prompt = FALSE)'
 uv run quarto render
 ```
 
-Then open <http://localhost:8000>. To preview the source files with automatic rebuilding, run:
+To view the built site locally, start Quarto's preview server:
 
 ```sh
 uv run quarto preview
 ```
 
-Quarto prints the preview URL, usually <http://localhost:4200>. If that port is busy, use the alternate URL Quarto prints.
+Open the URL Quarto prints, usually <http://localhost:4200>. The preview server rebuilds the site when source files change. If the port is busy, use the alternate URL Quarto prints.
 
 ## Data and network access
 
