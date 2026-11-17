@@ -211,9 +211,7 @@ body:has(.mountain-hero) .quarto-navbar-tools { color: var(--ink) !important; }
 .institution-logo { display: block; height: auto; margin: 0.7rem 0 1.2rem; max-height: 38px; max-width: 175px; object-fit: contain; object-position: left center; }
 .affiliation-lockup { background: color-mix(in srgb, var(--surface) 72%, transparent); border: 1px solid var(--line); display: inline-flex; flex-direction: column; gap: 0.65rem; margin: 1.2rem 0; max-width: 100%; padding: 0.9rem 1rem; }
 .affiliation-lockup > p { color: var(--muted); font-family: 'DM Mono', monospace; font-size: 0.62rem; letter-spacing: 0.035em; line-height: 1.5; margin: 0; text-transform: uppercase; }
-.logo-pair { align-items: center; display: flex; gap: 0.8rem; min-height: 31px; }
-.logo-pair img { display: block; height: auto; max-height: 28px; max-width: 112px; object-fit: contain; width: auto; }
-.logo-pair span { color: var(--accent-dark); font-family: 'DM Mono', monospace; font-size: 0.85rem; }
+.employer-logo { display: block; height: auto; max-height: 38px; max-width: 165px; object-fit: contain; object-position: left center; }
 .journal-trail .trail-heading .section-intro { font-size: 0.9rem; }
 .journal-cards { display: grid; gap: 1rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .journal-cards a:last-child { grid-column: span 2; }
@@ -349,8 +347,6 @@ body:has(.mountain-hero) .quarto-navbar-tools { color: var(--ink) !important; }
 	.toolkit-ring span { flex-basis: auto; }
 	.education-stops, .journal-cards, .project-notes { grid-template-columns: 1fr; }
 	.affiliation-lockup { padding: 0.8rem; }
-	.logo-pair { gap: 0.55rem; }
-	.logo-pair img { max-width: 96px; }
 	.journal-cards a:last-child { grid-column: auto; }
 	.trail-footer { align-items: flex-start; flex-direction: column; padding: 1.2rem; }
 	.home-grid { grid-template-columns: 1fr; margin-top: 4rem; }

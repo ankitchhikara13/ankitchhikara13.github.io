@@ -17,10 +17,12 @@ My experience has moved between Azure and AWS, large-scale Spark pipelines, and 
 
 ## Experience {#experience}
 
-<div class="affiliation-lockup" aria-label="Telstra and Accenture joint venture">
-<div class="logo-pair"><img src="images/logos/telstra.svg" alt="Telstra"><span aria-hidden="true">+</span><img src="images/logos/accenture.svg" alt="Accenture"></div>
-<p>Telstra–Accenture joint venture</p>
+<div class="affiliation-lockup">
+<img class="employer-logo" src="images/logos/telstra.svg" alt="Telstra">
+<p>Australia’s leading telecommunications company</p>
 </div>
+
+<p>Telstra serves consumers, businesses, large enterprises, and government organisations across Australia. During my six years there, I worked on the data platforms and ML workflows supporting analytics and operations.</p>
 
 ::: {.profile-timeline}
 ::: {.timeline-item}

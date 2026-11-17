@@ -14,9 +14,9 @@ Senior software engineer focused on data platforms, with six years of experience
 
 ## Experience
 
-<div class="affiliation-lockup" aria-label="Telstra and Accenture joint venture">
-<div class="logo-pair"><img src="images/logos/telstra.svg" alt="Telstra"><span aria-hidden="true">+</span><img src="images/logos/accenture.svg" alt="Accenture"></div>
-<p>Telstra–Accenture joint venture</p>
+<div class="affiliation-lockup">
+<img class="employer-logo" src="images/logos/telstra.svg" alt="Telstra">
+<p>Australia’s leading telecommunications company</p>
 </div>
 
 ### Telstra · Software Engineer 2, Big Data
