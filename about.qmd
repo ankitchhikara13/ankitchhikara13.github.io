@@ -1,12 +1,12 @@
 ---
 title: "About"
-description: "About Ankit Chhikara: data engineering, software platforms, and graduate study in data science."
+description: "About Ankit Chhikara, senior software engineer focused on data platforms and graduate study in data science."
 ---
 
 <p class="page-kicker">The person behind the pipelines</p>
 <div class="about-overview">
 <div class="about-portrait"><img src="images/profile.jpg" alt="Portrait of Ankit Chhikara"></div>
-<p class="page-intro">I’m Ankit, a data engineer pursuing a Master of Data Science at UBC. Over six years at Telstra, I’ve worked across cloud data platforms, ML operations, streaming analytics, and production software.</p>
+<p class="page-intro">I’m Ankit, a senior software engineer focused on data platforms and pursuing a Master of Data Science at UBC. Over six years at Telstra, I’ve worked across cloud data platforms, ML operations, streaming analytics, and production software.</p>
 </div>
 
 ## How I approach data work
