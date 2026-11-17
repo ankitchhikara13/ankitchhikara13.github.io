@@ -17,6 +17,11 @@ My experience has moved between Azure and AWS, large-scale Spark pipelines, and 
 
 ## Experience {#experience}
 
+<div class="affiliation-lockup" aria-label="Telstra and Accenture joint venture">
+<div class="logo-pair"><img src="images/logos/telstra.svg" alt="Telstra"><span aria-hidden="true">+</span><img src="images/logos/accenture.svg" alt="Accenture"></div>
+<p>Telstra–Accenture joint venture</p>
+</div>
+
 ::: {.profile-timeline}
 ::: {.timeline-item}
 ::: {.timeline-meta}
@@ -89,6 +94,9 @@ Developed Spring Boot services and integrated Amazon API Gateway, EC2, S3, and R
 ::: {.education-grid}
 ::: {.education-card}
 <p class="project-label">Vancouver, Canada · Aug 2026 – Aug 2027</p>
+
+<img class="institution-logo" src="images/logos/ubc.svg" alt="The University of British Columbia">
+
 ### Master of Science, Data Science
 
 **The University of British Columbia**

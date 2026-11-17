@@ -14,6 +14,11 @@ Senior software engineer focused on data platforms, with six years of experience
 
 ## Experience
 
+<div class="affiliation-lockup" aria-label="Telstra and Accenture joint venture">
+<div class="logo-pair"><img src="images/logos/telstra.svg" alt="Telstra"><span aria-hidden="true">+</span><img src="images/logos/accenture.svg" alt="Accenture"></div>
+<p>Telstra–Accenture joint venture</p>
+</div>
+
 ### Telstra · Software Engineer 2, Big Data
 
 **Apr 2023 – Present · Remote, Greater Melbourne Area**
@@ -47,6 +52,8 @@ Senior software engineer focused on data platforms, with six years of experience
 ## Education
 
 ### The University of British Columbia
+
+<img class="institution-logo" src="images/logos/ubc.svg" alt="The University of British Columbia">
 
 **Master of Science, Data Science · Aug 2026 – Aug 2027 · Vancouver, Canada**
 

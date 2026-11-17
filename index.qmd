@@ -178,6 +178,10 @@ page-layout: full
 <div class="trail-heading">
 <p class="eyebrow">04 · Work experience</p>
 <h2>A path through<br><em>data &amp; software.</em></h2>
+<div class="affiliation-lockup" aria-label="Telstra and Accenture joint venture">
+<div class="logo-pair"><img src="images/logos/telstra.svg" alt="Telstra"><span aria-hidden="true">+</span><img src="images/logos/accenture.svg" alt="Accenture"></div>
+<p>Telstra–Accenture joint venture</p>
+</div>
 <a class="text-link" href="resume.qmd">View résumé <span aria-hidden="true">→</span></a>
 </div>
 <div class="experience-list">
@@ -206,7 +210,7 @@ page-layout: full
 <h2>Two chapters.<br><em>One growing toolkit.</em></h2>
 </div>
 <div class="education-stops">
-<article><p class="project-label">Vancouver, Canada · 2026–2027</p><h3>Master of Science, Data Science</h3><p>The University of British Columbia</p><span>Graduate study in data science</span></article>
+<article><p class="project-label">Vancouver, Canada · 2026–2027</p><img class="institution-logo" src="images/logos/ubc.svg" alt="The University of British Columbia"><h3>Master of Science, Data Science</h3><p>The University of British Columbia</p><span>Graduate study in data science</span></article>
 <article><p class="project-label">New Delhi, India · 2016–2020</p><h3>Bachelor of Engineering</h3><p>Netaji Subhas Institute of Technology</p><span>Electrical, Electronics and Communications Engineering</span></article>
 </div>
 </section>
