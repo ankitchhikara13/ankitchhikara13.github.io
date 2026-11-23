@@ -1,12 +1,12 @@
 ---
 title: "About"
-description: "About Ankit Chhikara, senior software engineer focused on data platforms and graduate study in data science."
+description: "About Ankit Chhikara, senior software engineer focused on data platforms and a UBC Master of Data Science student."
 ---
 
 <p class="page-kicker">The person behind the pipelines</p>
 <div class="about-overview">
 <div class="about-portrait"><img src="images/profile.jpg" alt="Portrait of Ankit Chhikara"></div>
-<p class="page-intro">I’m Ankit, a senior software engineer focused on data platforms and pursuing a Master of Data Science at UBC. Over six years at Telstra, I’ve worked across cloud data platforms, ML operations, streaming analytics, and production software.</p>
+<p class="page-intro">I’m Ankit, a senior software engineer focused on data platforms and a Master of Data Science student at UBC. For nearly six years at Telstra, I worked across cloud data platforms, ML operations, streaming analytics, and production software.</p>
 </div>
 
 ## How I approach data work
@@ -22,19 +22,19 @@ My experience has moved between Azure and AWS, large-scale Spark pipelines, and 
 <p>Australia’s leading telecommunications company</p>
 </div>
 
-<p>Telstra serves consumers, businesses, large enterprises, and government organisations across Australia. During my six years there, I worked on the data platforms and ML workflows supporting analytics and operations.</p>
+<p>Telstra serves consumers, businesses, large enterprises, and government organisations across Australia. During my time there, I worked on the data platforms and ML workflows supporting analytics and operations.</p>
 
 ::: {.profile-timeline}
 ::: {.timeline-item}
 ::: {.timeline-meta}
-**Apr 2023 – Present**<br>
+**Apr 2023 – 19 Aug 2026**<br>
 Telstra · Remote<br>
 Greater Melbourne Area
 :::
 ::: {.timeline-content}
 ### Software Engineer 2, Big Data
 
-I work across data platforms, ML operations, and streaming analytics.
+Worked across data platforms, ML operations, and streaming analytics.
 
 **Datacore (DNA)**
 

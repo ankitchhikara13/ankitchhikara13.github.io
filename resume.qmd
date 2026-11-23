@@ -4,13 +4,13 @@ description: "A concise résumé for Ankit Chhikara, senior software engineer fo
 ---
 
 <div class="resume-toolbar">
-<p class="page-kicker">Data engineering · software platforms · ML operations</p>
+<p class="page-kicker">Senior software engineer · data platforms · ML operations</p>
 <button class="button button-primary print-button" type="button">Print or save as PDF <span aria-hidden="true">↓</span></button>
 </div>
 
 ## Summary
 
-Senior software engineer focused on data platforms, with six years of experience at Telstra across ML operations, streaming analytics, and cloud-native services. Currently pursuing a Master of Science in Data Science at the University of British Columbia.
+Senior software engineer focused on data platforms, with nearly six years of experience at Telstra across ML operations, streaming analytics, and cloud-native services. Currently a UBC Master of Data Science student.
 
 ## Experience
 
@@ -21,7 +21,7 @@ Senior software engineer focused on data platforms, with six years of experience
 
 ### Telstra · Software Engineer 2, Big Data
 
-**Apr 2023 – Present · Remote, Greater Melbourne Area**
+**Apr 2023 – 19 Aug 2026 · Remote, Greater Melbourne Area**
 
 - Built Azure Data Factory ingestion and transformation pipelines, storing Parquet data in ADLS and replicating it to PostgreSQL.
 - Optimized analytics workflows with Databricks and Control-M; designed modular pipelines for new data sources.
